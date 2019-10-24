@@ -10,7 +10,7 @@
 
 # production
 /build
-./build_app.bat
+build_app.bat
 # misc
 .DS_Store
 .env.local
