@@ -7,7 +7,7 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
-  "homepage": "https://shibasab.github.io/myportfolio",
+  "homepage": "https://shibasab.github.io/myportfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && move build docs",
