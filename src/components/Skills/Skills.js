@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Skills = () => {
-  return <h1>TODO : 言語やフレームワークについて</h1>;
+  return (
+    <div style={{ backgroundColor: 'lightblue' }} className="container">
+      <p>言語やフレームワークなど</p>
+    </div>
+  );
 };
 
 export default Skills;

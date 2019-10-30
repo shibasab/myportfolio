@@ -1,7 +1,12 @@
 import React from 'react';
+import './About.css';
 
 const About = () => {
-  return <h1>TODO: 自己紹介</h1>;
+  return (
+    <div style={{ backgroundColor: 'aqua' }} className="container">
+      <p>このページについて</p>
+    </div>
+  );
 };
 
 export default About;

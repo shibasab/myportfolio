@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Contact = () => {
-  return <h1>TODO : 連絡先など</h1>;
+  return (
+    <div style={{ backgroundColor: 'aqua' }} className="container">
+      <p>連絡先</p>
+    </div>
+  );
 };
 
 export default Contact;

@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Products = () => {
-  return <h1>TODO : 作ったアプリなど</h1>;
+  return (
+    <div style={{ backgroundColor: 'lightblue' }} className="container">
+      <p>作ったもの</p>
+    </div>
+  );
 };
 
 export default Products;

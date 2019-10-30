@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Experience = () => {
-  return <h1>TODO : 勉強してきたことやアルバイトでやったことなど</h1>;
+  return (
+    <div style={{ backgroundColor: 'aqua' }} className="container">
+      <p>勉強してきたことなど</p>
+    </div>
+  );
 };
 
 export default Experience;
