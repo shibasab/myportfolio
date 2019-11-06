@@ -25,10 +25,8 @@ const panes = [
 
 const Skills = () => {
   return (
-    <div style={{ backgroundColor: 'lightblue' }} className="container">
-      <div>
-        <Tab panes={panes} />
-      </div>
+    <div className="container">
+      <Tab panes={panes} />
     </div>
   );
 };

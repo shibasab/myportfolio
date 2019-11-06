@@ -2,7 +2,7 @@ import React from 'react';
 
 const Products = () => {
   return (
-    <div style={{ backgroundColor: 'lightblue' }} className="container">
+    <div className="container">
       <p>作ったもの</p>
     </div>
   );

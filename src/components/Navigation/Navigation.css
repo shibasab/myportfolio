@@ -17,7 +17,7 @@ li {
   float: left;
 }
 
-li a {
+.link {
   display: block;
   color: white;
   text-align: center;
@@ -25,10 +25,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.link:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
+.link.active {
   background-color: #4caf50;
+}
+
+@media screen and (max-width: 480px) {
+  .link {
+    padding: 14px 12px;
+  }
 }

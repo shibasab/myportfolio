@@ -1,5 +1,14 @@
-.card-group {
-  box-shadow: 2px 2px 4px gray;
-  border-radius: 6px;
-  margin: 5px 5px;
+.ui.attached.tabular.menu {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ui.bottom.attached.segment.active.tab {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ui.three.cards {
 }

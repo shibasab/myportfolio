@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Button } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import './Card.css';
 
 const CardLanguageGroups = () => (
-  <Card.Group itemsPerRow={3} className="card-group">
+  <Card.Group itemsPerRow={3}>
     <Card color="yellow">
       <Card.Content>
         <Card.Header>Python</Card.Header>
@@ -21,9 +21,7 @@ const CardLanguageGroups = () => (
         <Card.Meta>
           <span className="date">2019/8~</span>
         </Card.Meta>
-        <Card.Description>
-          絶賛勉強中です。フレームワークなしでアプリケーションを作りたい
-        </Card.Description>
+        <Card.Description>勉強中です。</Card.Description>
       </Card.Content>
     </Card>
     <Card color="brown">
@@ -37,7 +35,7 @@ const CardLanguageGroups = () => (
         </Card.Description>
       </Card.Content>
     </Card>
-    <Card color="gleen">
+    <Card color="green">
       <Card.Content>
         <Card.Header>Java</Card.Header>
         <Card.Meta>
@@ -46,7 +44,7 @@ const CardLanguageGroups = () => (
         <Card.Description>大学の授業で使ってます。</Card.Description>
       </Card.Content>
     </Card>
-    <Card color="">
+    <Card color="red">
       <Card.Content>
         <Card.Header>Ruby</Card.Header>
         <Card.Meta>
@@ -57,7 +55,7 @@ const CardLanguageGroups = () => (
         </Card.Description>
       </Card.Content>
     </Card>
-    <Card color="brown">
+    <Card color="pink">
       <Card.Content>
         <Card.Header>Javascript</Card.Header>
         <Card.Meta>
@@ -74,15 +72,52 @@ const CardFrameworkGroups = () => {
     <Card.Group itemsPerRow={3}>
       <Card color="yellow">
         <Card.Content>
-          <Card.Header>Python</Card.Header>
+          <Card.Header>React</Card.Header>
           <Card.Meta>
-            <span className="date">2017/5~</span>
+            <span className="date">2019/6~</span>
           </Card.Meta>
           <Card.Description>
-            画像処理をやったりDjangoでWebアプリケーションを作ったりしています。
+            このサイトはReactを使用しています。
           </Card.Description>
         </Card.Content>
-        <Button content="Like" icon={{ color: 'red', name: 'like' }} />
+      </Card>
+      <Card color="yellow">
+        <Card.Content>
+          <Card.Header>Django</Card.Header>
+          <Card.Meta>
+            <span className="date">2019/5~</span>
+          </Card.Meta>
+          <Card.Description>勉強中です。</Card.Description>
+        </Card.Content>
+      </Card>
+      <Card color="yellow">
+        <Card.Content>
+          <Card.Header>Django REST framework</Card.Header>
+          <Card.Meta>
+            <span className="date">2019/8~</span>
+          </Card.Meta>
+          <Card.Description>
+            Reactと組み合わせてTodoアプリケーションを作りました。
+          </Card.Description>
+        </Card.Content>
+      </Card>
+      <Card color="yellow">
+        <Card.Content>
+          <Card.Header>Tensorflow</Card.Header>
+          <Card.Meta>
+            <span className="date">2017/9~</span>
+          </Card.Meta>
+          <Card.Description>モデル作りに使用しています。</Card.Description>
+        </Card.Content>
+      </Card>
+      <Card color="yellow">
+        <Card.Content>
+          <Card.Header>OpenVINO</Card.Header>
+          <Card.Meta>
+            <span className="date">2018/12~</span>
+          </Card.Meta>
+          <Card.Description>推論に使っています。</Card.Description>
+        </Card.Content>
       </Card>
     </Card.Group>
   );
